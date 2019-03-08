@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             File imageStorageDir = new File(
                     Environment.getExternalStoragePublicDirectory(
                             Environment.DIRECTORY_PICTURES)
-                    , "bhimsena");
+                    , "MyImage");
             if (!imageStorageDir.exists()) {
                 // Create AndroidExampleFolder at sdcard
                 imageStorageDir.mkdirs();
